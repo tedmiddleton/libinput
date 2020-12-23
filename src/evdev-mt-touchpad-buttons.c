@@ -1219,7 +1219,8 @@ tp_post_clickpadbutton_buttons(struct tp_dispatch *tp, uint64_t time)
 				is_top = 1;
 				/* fallthrough */
 			case BUTTON_EVENT_IN_BOTTOM_M:
-				area |= MIDDLE;
+				//area |= MIDDLE;
+				area |= LEFT;
 				break;
 			case BUTTON_EVENT_IN_TOP_R:
 				is_top = 1;
